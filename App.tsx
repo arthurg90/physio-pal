@@ -3,7 +3,6 @@
  * https://github.com/facebook/react-native
  *
  * @format
- * @flow
  */
 
 import React from 'react'
@@ -24,6 +23,8 @@ import {
   DebugInstructions,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
+
+import { Hello } from './components/Hello';
 
 const App = () => {
   return (
